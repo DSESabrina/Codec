@@ -9,6 +9,11 @@ client.on('ready', () => {
     console.log(`Logged in as ${client.user.username}.`);
 });
 
+/*
+1/8/22 4:15 AM Kick Command works without the Then, and Catch Error, 
+but once those are Implemented Causes Codec to Ignore, and act as if the user is not in the server when 
+ID of USer is Provided. must be debugged - Bug 0001-A
+*/
 client.on('message', (message) =>{
     if (message.author.bot) return;
     if (message.content.startsWith(PREFIX)) {
