@@ -7,7 +7,7 @@ module.exports = {
 
     callback: ({message, interaction}) => {
     
-        const reply = 'Pong!'
+        const reply = 'Pong Why are You Pinging me?'
 
         if (message) {
             message.reply({
