@@ -24,6 +24,7 @@ client.on('ready', async () => {
 new WOKCommands(client, {
    
     commandsDir: path.join(__dirname, 'commands'),
+    featuresDir: path.join(__dirname, 'features'),
     testServers: ['929295238604935188'],
     botOwners: ['634520206387052565', '641816774072991793'],
     mongoUri: process.env.MONGO_URI
