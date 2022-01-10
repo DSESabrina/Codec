@@ -1,5 +1,4 @@
 const { model } = require("mongoose")
-const rules = require("nodemon/lib/rules")
 
 module.exports = (client, instance) => {
     client.on("guildMemberAdd", (member) => {
