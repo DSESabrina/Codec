@@ -1,9 +1,10 @@
-module.exports = {
+module.exports = { 
     category: 'Testing',
     description: 'replies with pong', //Slash Commands
     slash: 'both',
     testOnly: true,
     ownerOnly: true,
+    permissions: ['ADMINISTRATOR'],
 
     callback: ({message, interaction}) => {
     
@@ -24,5 +25,5 @@ module.exports = {
             content: reply
         }
     },
-}
+} 
 
