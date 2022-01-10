@@ -30,6 +30,6 @@ new WOKCommands(client, {
     mongoUri: process.env.MONGO_URI
 })
 
-.setDefaultPrefix('.c')
+.setDefaultPrefix('c.')
 
 client.login(process.env.DISCORD_BOT_TOKEN);
